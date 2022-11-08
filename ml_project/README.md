@@ -45,3 +45,8 @@ jupyter-kernelspec uninstall .venv
     ```
 
 HTML report will be generated and placed into `reports/` folder
+
+## Models
+
+For prototyping `LogisticRegression` and `kNN` models from `sklearn`
+are used. Corresponding notebook: `notebooks/Heart-Disease-Cleveland-UCI-models.ipynb`.
