@@ -50,3 +50,27 @@ HTML report will be generated and placed into `reports/` folder
 
 For prototyping `LogisticRegression` and `kNN` models from `sklearn`
 are used. Corresponding notebook: `notebooks/Heart-Disease-Cleveland-UCI-models.ipynb`.
+
+## Fit and predict from command line
+
+**Fit:**
+
+- Navigate to the `src` folder
+- Run:
+  ```
+  python3 main_pipeline.py --fit \
+                           --X_train "data/X_train.csv" \
+                           --y_train "data/y_train.csv" \
+                           --model_path "models/model.sav"
+  ```
+  
+**Predict** (Note: must be ran only after **fit**)
+
+- Navigate to the `src` folder
+- Run:
+  ```
+  python3 main_pipeline.py --predict \
+                           --model_path "models/model.sav" \
+                           --X_test "data/X_test.csv" \
+                           --y_pred "data/y_pred.csv"
+  ```

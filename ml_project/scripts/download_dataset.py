@@ -1,8 +1,9 @@
 import os
 import json
+import rootpath
 
-KAGGLE_API_CREDENTIALS_PATH = "../credentials/kaggle.json"
-DATASET_PATH = "../data/"
+KAGGLE_API_CREDENTIALS_PATH = os.path.join(rootpath.detect(), "credentials/kaggle.json")
+DATASET_PATH = os.path.join(rootpath.detect(), "data")
 DATASET = "cherngs/heart-disease-cleveland-uci"
 DATASET_URL = "https://www.kaggle.com/datasets/" + DATASET
 

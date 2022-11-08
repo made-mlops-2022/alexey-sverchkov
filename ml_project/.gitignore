@@ -9,3 +9,8 @@ credentials/
 
 # jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+models/*
+!models/.gitkeep
+
+__pycache__
