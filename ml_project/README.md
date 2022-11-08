@@ -35,3 +35,13 @@ To remove _venv_ kernel run:
 ```
 jupyter-kernelspec uninstall .venv
 ```
+
+## Generate EDA report:
+
+- Navigate to the `scripts` folder
+- Run `generate_EDA_report.sh` script:
+    ```
+    bash generate_EDA_report.sh
+    ```
+
+HTML report will be generated and placed into `reports/` folder
