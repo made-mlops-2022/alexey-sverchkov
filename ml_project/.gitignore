@@ -2,7 +2,7 @@
 .venv/
 
 # dataset and related data
-data/
+/data/
 
 # kaggle credentials
 credentials/
@@ -10,7 +10,7 @@ credentials/
 # jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-models/*
-!models/.gitkeep
+/models/*
+!/models/.gitkeep
 
 __pycache__

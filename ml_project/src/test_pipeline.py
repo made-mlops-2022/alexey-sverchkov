@@ -1,12 +1,9 @@
 from models.fit_predict import ModelType, normalize, fit, predict
-from data.split_data_on_train_test import split_data_on_train_test
 
 import unittest
 import os
 import rootpath
 import pandas as pd
-import subprocess as sp
-from sklearn.metrics import accuracy_score
 
 
 DATASET_PATH = os.path.join(rootpath.detect(), "data/heart_cleveland_upload.csv")
