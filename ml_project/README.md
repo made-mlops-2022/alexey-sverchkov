@@ -74,3 +74,12 @@ are used. Corresponding notebook: `notebooks/Heart-Disease-Cleveland-UCI-models.
                            --X_test "data/X_test.csv" \
                            --y_pred "data/y_pred.csv"
   ```
+
+## Configs
+
+Configs are also supported, example:
+```
+python3 main_pipeline.py --config_path configs/knn_config.yml --fit --predict
+```
+
+See all available configs in the `configs/` directory.
