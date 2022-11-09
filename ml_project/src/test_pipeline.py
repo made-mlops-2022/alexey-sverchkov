@@ -1,4 +1,5 @@
 from models.fit_predict import ModelType, normalize, fit, predict
+from data.prepare_data import prepare_data
 
 import unittest
 import os
@@ -29,6 +30,9 @@ MODEL_TO_SCORE = {
 
 
 class TestFit(unittest.TestCase):
+    def setUp(self):
+        prepare_data()
+
     def test_fit(self):
         for model in MODELS:
             fit(model,
