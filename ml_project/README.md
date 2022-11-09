@@ -83,3 +83,8 @@ python3 main_pipeline.py --config_path configs/knn_config.yml --fit --predict
 ```
 
 See all available configs in the `configs/` directory.
+
+## Tests
+
+- Navigate to the `src/` directory
+- Run `python3 -m unittest`
