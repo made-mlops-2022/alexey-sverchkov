@@ -1,0 +1,13 @@
+# python virtual environment
+.venv
+
+# python cache
+__pycache__
+
+# models
+models/*
+!models/.gitkeep
+
+# data
+data/*
+!data/.gitkeep
