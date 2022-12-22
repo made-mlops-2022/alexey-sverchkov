@@ -1,0 +1,14 @@
+# docker files
+Dockerfile
+
+# python virtual environment
+.venv
+
+# python cache
+**/__pycache__
+
+# models
+models/*
+
+# data
+data/*
